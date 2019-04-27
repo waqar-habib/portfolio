@@ -1,11 +1,13 @@
 body {
-    background-image: url(../images/background.png) !important;
-    background-size: 100% auto auto !important;
-}
+    height: 100vh;
+    background-size: cover;
+  }
+
 
 .jumbotron {
-    background-color: #500000 !important;
-    height: 500px !important;    
+    margin-top: 90px;
+    background-color: rgba(25, 37, 75, 0.5) !important;
+    color: white;
 }
 .lead {
     font-family: 'Archivo Narrow', sans-serif !important;
@@ -15,12 +17,13 @@ body {
     text-align: center !important;
 }
 .display-4{
-    font-weight: 400 !important;
+    font-weight: 00 !important;
     margin-top: 2em;
-    font-family: 'Lora', sans-serif !important;
+    font-family: 'Courier New', sans-serif !important;
 }
 .florida {
-    border: 5px solid #ffffff !important;
+    border-radius: 50% !important;
+    border: #000000 solid 5px;
 }
 .navbar {
     background-color: #500000 !important;

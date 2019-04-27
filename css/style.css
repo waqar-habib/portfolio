@@ -1,0 +1,98 @@
+body {
+    background-image: url(../images/background.png) !important;
+    background-size: 100% auto auto !important;
+}
+
+.jumbotron {
+    background-color: #500000 !important;
+    height: 500px !important;    
+}
+.lead {
+    font-family: 'Archivo Narrow', sans-serif !important;
+}
+.lead, .display-4{
+    color: #ffffff !important;
+    text-align: center !important;
+}
+.display-4{
+    font-weight: 400 !important;
+    margin-top: 2em;
+    font-family: 'Lora', sans-serif !important;
+}
+.florida {
+    border: 5px solid #ffffff !important;
+}
+.navbar {
+    background-color: #500000 !important;
+    
+}
+
+.navbar-brand {
+    font-family: 'Rubik', sans-serif !important;
+    color: #ffffff !important;
+    letter-spacing: 0.2em;
+    
+}
+.nav-link {
+
+    color: #ffffff !important;
+}
+
+.img-index {
+    border: 4px solid black !important;
+}
+
+.bg-secondary {
+    background-color: #500000ee !important;
+    color: #ffffff;
+}
+.bg-bottom-footer {
+    background-color: #500000 !important;
+    color: #ffffff !important;
+}
+
+#about-me {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-size: 2.4rem !important;
+    color: #000000 !important;
+}
+
+.card {
+    background: none !important;
+    border: none !important;
+    margin: 1.3rem !important;
+}
+
+/* Portfolio.html */
+
+.portfolio-img {
+    border: 2px solid black !important;
+}
+
+.portfolio-text {
+    font-family: 'Lora', sans-serif !important;
+    font-size: 0.9rem !important;
+
+}
+#heading {
+    font-family: 'BioRhyme', serif !important;
+    font-size: 2.6rem !important;
+    color: #000000 !important;
+}
+
+/* Contact */
+
+.thumbs-up {
+    border: 3px solid black !important;
+}
+.contact-footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.btn-submit {
+    background-color: #500000 !important;
+    color: #ffffff !important;
+}

@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Home | Waqar Habib</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Bootstrap v4-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:400,500i|Lora|Rubik|BioRhyme" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!--Custom CSS-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/timeline.css">
     <!--jQuery-->
     <script src="https://code.jquery.com/jquery-3.4.0.js"
-    integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
+        integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
 
 </head>
 
-<!--Unsplash API-->
-<script src="./javascript/unsplashapi.js"></script>
+<body>
 
-<body>  
-
-<!--NavBar Begins-->
+    <!--NavBar Begins-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="./index.html">WAQAR HABIB</a>
 
@@ -41,21 +43,99 @@
                 <li class="nav-item">
                     <a class="nav-link" href="./contact.html">Contact</a>
                 </li>
-              </ul>
+            </ul>
         </div>
     </nav>
-<!--NavBar Ends-->
+    <!--NavBar Ends-->
 
-<script src="https://code.jquery.com/jquery-3.4.0.js"
-integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-</script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-</script>
-<script src="./javascript/unsplashapi.js"></script>
-   
+    <!--Basic Timeline skeleton taken from: https://codepen.io/bsngr/pen/Ifvbi-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center mt-4">
+                <h2>Timeline</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8">
+
+            </div>
+        </div>
+        <ul class="timeline mt-4">
+            <li>
+                <div class="timeline-badge"><i class="fas fa-baby"></i></div>
+                <div class="timeline-panel mt-3">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">The Early Years</h4>
+                        <p><small class="text-muted">1994 - 2008</small></p>
+
+                    </div>
+                    <div class="timeline-body">
+                        <p>Born and raised in Karachi, the southern-most coastal city of Pakistan. Always wanted to
+                            become a doctor, but things didn't quite right.</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-badge warning"><i class="fas fa-flag-usa"></i></div>
+                <div class="timeline-panel mt-3">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">The American Dream</h4>
+                        <p><small class="text-muted">2008 - 2012</small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Emigrated to the United States in 2008 at the age of 13, in search for "The American Dream." Here, I had to carve my way into a whole new culture, learn a new language, find a group of friends who could help me settle into my new hometown. </p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-badge danger"><i class="fas fa-graduation-cap"></i></div>
+                <div class="timeline-panel mt-3">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">The College Years</h4>
+                        <p><small class="text-muted">2012 - 2018</small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>After getting into Texas A&M University in College Station, Texas, I tried to pursue medicine
+                            to fulfill my childhood dream of becoming a doctor. Just after a semester, I was plagued
+                            with a plethora of health issues that made me realize that undertaking the long and tedious
+                            medicine route was just not for me. </p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-badge danger"><i class="fas fa-briefcase"></i></div>
+                <div class="timeline-panel mt-3">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">The Real World</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p>After getting my Bachelor's in Biomedical Sciences with minors in Neuroscience and Psychology, I decided to take a leap of faith jump into the world of coding and software development. And it seems like I've finally found my calling.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-badge info"><i class="fas fa-laptop-code"></i></div>
+                <div class="timeline-panel mt-3">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">The New Beginning: Software Development</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Just a couple months into pursuing a coding boot camp with The University of Texas at Austin, I've learnt how to design amazing websites and apps using HTML5/CSS3 and JavaScript. I can't wait to see what else I can design with MongoDB, Express, React and Node or the MERN Stack</p>
+                    </div>
+                </div>
+            </li>
+
+
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.0.js"
+        integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
